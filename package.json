@@ -1,0 +1,33 @@
+{
+    "name": "@Fansems1/bnbscanevm",
+    "version": "1.0.2",
+    "description": "Ethereum Virtual Machine Scanner",
+    "main": "index.js",
+    "scripts": {
+        "bot": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fansesm1/bnbscanevm.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Fansems1/bnbscanevm/issues"
+    },
+    "homepage": "https://github.com/Fansems1/bnbscanevm#readme",
+    "keywords": [
+        "evmscan",
+        "evmscanner",
+        "ethereum",
+        "virtual",
+        "machine",
+        "scanner"
+    ],
+    "author": "takadotdev",
+    "license": "ISC",
+    "dependencies": {
+        "@takadotdev/evmscan": "^1.0.2",
+        "dotenv": "^16.4.5",
+        "node-telegram-bot-api": "^0.64.0",
+        "nodemon": "^3.1.0"
+    }
+}
